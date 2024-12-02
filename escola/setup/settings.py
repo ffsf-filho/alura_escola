@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-fmwi!zh=u25!9j7iekl_psen(hye6tc4#k=m!rp$=6wmfm9_rm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+#ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*'] #Quando for para produção, permitindo o acesso de qualquer host
 
 
 # Application definition
